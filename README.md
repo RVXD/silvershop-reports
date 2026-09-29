@@ -21,6 +21,7 @@ Sales, Tax, Customers, Abandoned Carts) with checks and analytics core doesn't h
   pipeline (hidden Cart statuses excluded).
 - **Best sellers by revenue** — top products by revenue (and units); complements core's `ProductReport`, which ranks
   by quantity, so a low-volume high-value line surfaces here.
+- **Top customers by spend** — registered customers ranked by total spend across placed orders (guests excluded).
 
 Reports are auto-discovered — no configuration needed. Install and they appear under CMS → Reports.
 
