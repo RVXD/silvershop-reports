@@ -1,14 +1,12 @@
 # SilverShop Reports
 
-Catalog and order hygiene reports for [SilverShop](https://github.com/silvershop/silvershop-core), shown under
-**CMS → Reports**. They help shop managers spot data problems before customers do.
-
-Inspired by the "side reports" in `sunnysideup/ecommerce`, rebuilt as a small, standalone, opt-in SilverShop module.
+Catalog, order and sales reports for [SilverShop](https://github.com/silvershop/silvershop-core), shown under
+**CMS → Reports**. They **complement** silvershop-core's built-ins (All/No-image/Featured/Heavy Products, Shop
+Sales, Tax, Customers, Abandoned Carts) with checks and analytics core doesn't have.
 
 ## Reports
 
-These **complement** the reports silvershop-core already ships (All Products, No-image Products, Featured Products,
-Heavy Products) — they add checks core doesn't have:
+**Catalog hygiene** — spot data problems before customers do:
 
 - **Products with no price** — products with a zero base price (data-entry oversight; note a product priced only
   through variations will also show).
@@ -16,6 +14,13 @@ Heavy Products) — they add checks core doesn't have:
   find on the storefront).
 - **Products with duplicate SKUs** — products sharing an `InternalItemID` with another product (import/copy error;
   breaks anything that keys on SKU).
+
+**Sales & orders** — with a date-range filter:
+
+- **Orders by status** — order count and total value per status (Paid / Processing / Sent / … ), the operational
+  pipeline (hidden Cart statuses excluded).
+- **Best sellers by revenue** — top products by revenue (and units); complements core's `ProductReport`, which ranks
+  by quantity, so a low-volume high-value line surfaces here.
 
 Reports are auto-discovered — no configuration needed. Install and they appear under CMS → Reports.
 
