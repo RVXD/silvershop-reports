@@ -1,0 +1,35 @@
+{
+    "name": "silvershop/reports",
+    "description": "Catalog and order hygiene reports for SilverShop, shown in the CMS Reports section.",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe", "silvershop", "ecommerce", "reports", "catalog"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "SilverShop Contributors",
+            "homepage": "https://github.com/silvershop/silvershop-reports/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "silverstripe/framework": "^6.0",
+        "silverstripe/reports": "^6.0",
+        "silvershop/core": "^6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "6.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverShop\\Reports\\": "src/",
+            "SilverShop\\Reports\\Tests\\": "tests/unit/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

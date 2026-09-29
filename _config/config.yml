@@ -1,0 +1,5 @@
+---
+Name: silvershop-reports
+---
+# Reports are auto-discovered by silverstripe/reports (any subclass of Report appears under CMS > Reports).
+# This file exists so the package is registered as a Silverstripe module.
