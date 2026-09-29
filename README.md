@@ -7,11 +7,15 @@ Inspired by the "side reports" in `sunnysideup/ecommerce`, rebuilt as a small, s
 
 ## Reports
 
+These **complement** the reports silvershop-core already ships (All Products, No-image Products, Featured Products,
+Heavy Products) — they add checks core doesn't have:
+
 - **Products with no price** — products with a zero base price (data-entry oversight; note a product priced only
   through variations will also show).
-- **Products with no image** — products missing a main image (render with a placeholder on the storefront).
 - **Products not under a category** — products whose page-tree parent is not a `ProductCategory` (orphaned, hard to
   find on the storefront).
+- **Products with duplicate SKUs** — products sharing an `InternalItemID` with another product (import/copy error;
+  breaks anything that keys on SKU).
 
 Reports are auto-discovered — no configuration needed. Install and they appear under CMS → Reports.
 
