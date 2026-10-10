@@ -1,0 +1,36 @@
+fr:
+  SilverShop\Reports:
+    GROUP: 'Boutique'
+    ColProduct: 'Produit'
+    ColSKU: 'SKU'
+  SilverShop\Reports\DuplicateSkuReport:
+    TITLE: 'Produits avec des SKU en double'
+  SilverShop\Reports\OrdersByStatusReport:
+    TITLE: 'Commandes par statut'
+    DESC: 'Nombre de commandes et valeur totale par statut, pour une période.'
+    Start: 'Du (date de commande)'
+    End: 'Au (date de commande)'
+    ColStatus: 'Statut'
+    ColOrders: 'Commandes'
+    ColRevenue: 'Valeur totale'
+  SilverShop\Reports\BestSellersByRevenueReport:
+    TITLE: 'Meilleures ventes par chiffre d''affaires'
+    DESC: 'Meilleurs produits par chiffre d''affaires (et unités) pour une période. Commandes passées uniquement, lignes de produits.'
+    Start: 'Du (date de paiement)'
+    End: 'Au (date de paiement)'
+    ColProduct: 'Produit'
+    ColUnits: 'Unités vendues'
+    ColRevenue: 'Chiffre d''affaires'
+  SilverShop\Reports\TopCustomersBySpendReport:
+    TITLE: 'Meilleurs clients par dépenses'
+    DESC: 'Clients enregistrés classés par dépenses totales (commandes passées) pour une période. Les invités sans compte sont exclus.'
+    Start: 'Du (date de paiement)'
+    End: 'Au (date de paiement)'
+    ColCustomer: 'Client'
+    ColEmail: 'E-mail'
+    ColOrders: 'Commandes'
+    ColSpend: 'Dépenses totales'
+  SilverShop\Reports\ProductsWithoutPriceReport:
+    TITLE: 'Produits sans prix'
+  SilverShop\Reports\ProductsWithoutCategoryReport:
+    TITLE: 'Produits sans catégorie'

@@ -1,0 +1,36 @@
+en:
+  SilverShop\Reports:
+    GROUP: 'Shop'
+    ColProduct: 'Product'
+    ColSKU: 'SKU'
+  SilverShop\Reports\DuplicateSkuReport:
+    TITLE: 'Products with duplicate SKUs'
+  SilverShop\Reports\OrdersByStatusReport:
+    TITLE: 'Orders by status'
+    DESC: 'Order count and total value per status, for a period.'
+    Start: 'From (placed date)'
+    End: 'To (placed date)'
+    ColStatus: 'Status'
+    ColOrders: 'Orders'
+    ColRevenue: 'Total value'
+  SilverShop\Reports\BestSellersByRevenueReport:
+    TITLE: 'Best sellers by revenue'
+    DESC: 'Top products by revenue (and units) for a period. Placed orders, product lines only.'
+    Start: 'From (paid date)'
+    End: 'To (paid date)'
+    ColProduct: 'Product'
+    ColUnits: 'Units sold'
+    ColRevenue: 'Revenue'
+  SilverShop\Reports\TopCustomersBySpendReport:
+    TITLE: 'Top customers by spend'
+    DESC: 'Registered customers ranked by total spend (placed orders) for a period. Guests without an account are excluded.'
+    Start: 'From (paid date)'
+    End: 'To (paid date)'
+    ColCustomer: 'Customer'
+    ColEmail: 'Email'
+    ColOrders: 'Orders'
+    ColSpend: 'Total spend'
+  SilverShop\Reports\ProductsWithoutPriceReport:
+    TITLE: 'Products with no price'
+  SilverShop\Reports\ProductsWithoutCategoryReport:
+    TITLE: 'Products not under a category'

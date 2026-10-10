@@ -1,0 +1,36 @@
+nl:
+  SilverShop\Reports:
+    GROUP: 'Shop'
+    ColProduct: 'Product'
+    ColSKU: 'SKU'
+  SilverShop\Reports\DuplicateSkuReport:
+    TITLE: 'Producten met dubbele SKU''s'
+  SilverShop\Reports\OrdersByStatusReport:
+    TITLE: 'Bestellingen per status'
+    DESC: 'Aantal bestellingen en totale waarde per status, voor een periode.'
+    Start: 'Vanaf (besteldatum)'
+    End: 'Tot (besteldatum)'
+    ColStatus: 'Status'
+    ColOrders: 'Bestellingen'
+    ColRevenue: 'Totale waarde'
+  SilverShop\Reports\BestSellersByRevenueReport:
+    TITLE: 'Bestsellers op omzet'
+    DESC: 'Topproducten op omzet (en aantallen) voor een periode. Alleen geplaatste bestellingen, productregels.'
+    Start: 'Vanaf (betaaldatum)'
+    End: 'Tot (betaaldatum)'
+    ColProduct: 'Product'
+    ColUnits: 'Verkochte aantallen'
+    ColRevenue: 'Omzet'
+  SilverShop\Reports\TopCustomersBySpendReport:
+    TITLE: 'Topklanten op besteding'
+    DESC: 'Geregistreerde klanten gerangschikt op totale besteding (geplaatste bestellingen) voor een periode. Gasten zonder account worden uitgesloten.'
+    Start: 'Vanaf (betaaldatum)'
+    End: 'Tot (betaaldatum)'
+    ColCustomer: 'Klant'
+    ColEmail: 'E-mail'
+    ColOrders: 'Bestellingen'
+    ColSpend: 'Totale besteding'
+  SilverShop\Reports\ProductsWithoutPriceReport:
+    TITLE: 'Producten zonder prijs'
+  SilverShop\Reports\ProductsWithoutCategoryReport:
+    TITLE: 'Producten zonder categorie'

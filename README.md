@@ -25,10 +25,17 @@ Sales, Tax, Customers, Abandoned Carts) with checks and analytics core doesn't h
 
 Reports are auto-discovered — no configuration needed. Install and they appear under CMS → Reports.
 
+## Scope
+
+This module is the **generic catalog + order/sales** report bucket. Domain-specific reports live in the module they
+concern (the suite convention) — e.g. sales-by-brand in `silvershop/brands`, sales-by-category in
+`silvershop/category-index`, refunds in `silvershop/invoicing`, a ledger summary in `silvershop/ledger`, low-stock in
+`silvershop/stock`, discounts in `silvershop/discounts`. Together with core's built-ins these cover the common
+"80/20" shop reports; search-terms / most-viewed need view-tracking infrastructure and are out of scope.
+
 ## Status
 
-Prototype — a first slice of the reporting ideas from `sunnysideup/ecommerce`. More to come (duplicate SKUs, long
-titles, orders side-reports, …).
+v1.0 — six reports above, auto-discovered, i18n (en/nl/de/fr/es/it), tests + CI.
 
 ## Requirements
 

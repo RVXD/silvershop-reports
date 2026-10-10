@@ -1,0 +1,36 @@
+es:
+  SilverShop\Reports:
+    GROUP: 'Tienda'
+    ColProduct: 'Producto'
+    ColSKU: 'SKU'
+  SilverShop\Reports\DuplicateSkuReport:
+    TITLE: 'Productos con SKU duplicados'
+  SilverShop\Reports\OrdersByStatusReport:
+    TITLE: 'Pedidos por estado'
+    DESC: 'Número de pedidos y valor total por estado, para un periodo.'
+    Start: 'Desde (fecha de pedido)'
+    End: 'Hasta (fecha de pedido)'
+    ColStatus: 'Estado'
+    ColOrders: 'Pedidos'
+    ColRevenue: 'Valor total'
+  SilverShop\Reports\BestSellersByRevenueReport:
+    TITLE: 'Más vendidos por ingresos'
+    DESC: 'Productos principales por ingresos (y unidades) para un periodo. Solo pedidos realizados, líneas de producto.'
+    Start: 'Desde (fecha de pago)'
+    End: 'Hasta (fecha de pago)'
+    ColProduct: 'Producto'
+    ColUnits: 'Unidades vendidas'
+    ColRevenue: 'Ingresos'
+  SilverShop\Reports\TopCustomersBySpendReport:
+    TITLE: 'Mejores clientes por gasto'
+    DESC: 'Clientes registrados clasificados por gasto total (pedidos realizados) para un periodo. Se excluyen los invitados sin cuenta.'
+    Start: 'Desde (fecha de pago)'
+    End: 'Hasta (fecha de pago)'
+    ColCustomer: 'Cliente'
+    ColEmail: 'Correo electrónico'
+    ColOrders: 'Pedidos'
+    ColSpend: 'Gasto total'
+  SilverShop\Reports\ProductsWithoutPriceReport:
+    TITLE: 'Productos sin precio'
+  SilverShop\Reports\ProductsWithoutCategoryReport:
+    TITLE: 'Productos sin categoría'
